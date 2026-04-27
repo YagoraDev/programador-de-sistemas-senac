@@ -9,8 +9,9 @@ print(type(salario))
 print(type(altura))
 print(type(genero))
 print(type(nome))
+print(idade)
 
 # print(idade)
 # print('Idade = ',idade)
 # sintaxes de saída de dados
-# print("A funcionária",nome,"\ntem",idade,"\ndo sexo")
+# print("A funcionária",nome,"\ntem",idade,"\ndo sexo") 
