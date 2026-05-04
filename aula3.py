@@ -1,20 +1,13 @@
-# CONDICIONAL
-# ESTRUTURA DE CONTROLE CONDICOES ANINHADAS IF ELIF ELSE
+# nome = (input("Usuario: "))
+# nota_prova = float(input(f"Bem vindo(a), {nome}. \ninsira a nota da prova:"))
+# nota_trabalho = float(input("Insira a nota do trabalho: "))
+# check_nota = (nota_trabalho >= 7) or (nota_prova > 7)
+# print()
+# print(f"{nome}\nAprovação: {check_nota}")
 
-idade = 18
-if idade > 18:
-    print("Você é maior de idade.")
-else:
-    print("Você é menor de idade.")
+idade_usuario = 18
+possui_carteira = True
+sem_multas = True
 
-
-# CONDICAO PARA APROVACAO
-nota1 = float(input("Informe a primeira nota: "))
-nota2 = float(input("Informe a segunda nota: "))
-
-media = (nota1 + nota2) / 2
-
-if (media >= 7):
-    print("Parabens você passou de ano!")
-else:
-    print("Infelizmente você não atingiu a média")
+verificador = (idade_usuario >= 18) and possui_carteira and sem_multas
+print(verificador)
