@@ -3,8 +3,10 @@
 altura = float(input("Adicione a sua altura: "))
 peso = float(input("Adicione o seu peso: "))
 
+# PROCESSAMENTO (CALCULO IMC)
 imc = (peso / (altura ** 2))
 
+# SAIDA DE DADOS
 if imc < 16:
     print(f"Seu IMC: {imc:.2f} - Baixo peso (grau 1)")
 elif imc <= 16.99:
