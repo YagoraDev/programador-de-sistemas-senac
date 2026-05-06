@@ -1,4 +1,4 @@
-# variaveis
+# VARIAVEIS
 idade = 20
 salario = 5800.50
 altura = 1.63
@@ -7,7 +7,7 @@ nome = 'Maria Silva'
 
 
 
-# Mostrar o "tipo" da variavel
+# MOSTRAR O "TIPO" DA VARIAVEL 
 print(type(idade))
 print(type(salario))
 print(type(altura))
@@ -17,13 +17,13 @@ print('-'*80)
 
 
 
-# Vendo o valor da variavel
+# VISUALIZANDO O VALOR DA VARIAVEL
 print(idade) 
 print('-'*80)
 
 
 
-# Utilizando strings com variaveis
+# UTILIZANDO STRINGS COM VARIAVEIS
 print("Dados cadastrados no Sitema")
 print("Nome =", nome)
 print('Idade =',idade)
@@ -33,7 +33,7 @@ print('-'*80)
 
 
 
-# Utilizando a quebra de linha \n
+# UTILIZANDO A QUEBRA DE LINHA \n 
 print("A cliente",nome, 'tem ',idade,
       'anos \ne sua renda mensal é de R$',salario, 'reais' ) 
 print('-'*80)
@@ -41,7 +41,7 @@ print('-'*80)
 
 
 
-# Argumentos
+# ARGUMENTOS
 print("Meu", "nome", "é", sep="_", end="*")    # sep='-' separa os espacos entre as strings com '_'.
 print("Monty", "Python.", sep="*", end="*\n")  # end="*" adiciona no final do codigo o elementos selecionado e junta com o proximo print.
 print('-'*80)
@@ -66,7 +66,7 @@ alt shift A : comentar bloco
 
 
 
-# Sintaxes de saida de dados 
+# SINTAXES DE SAIDA DE DADOS
 print('Exemplo de print formatado')
 print('A cliente {} tem {} anos e sua renda mensal é de R$ {:.2f} reais'.format(nome,idade,salario))
 print()
@@ -76,33 +76,33 @@ print('-'*80)
 
 
 
-# Forma mais utilizada de usar o .format
+# FORMA MAIS UTILIZADA DE USAR O .format
 print("Exemplo de print formatado com f strings")
 print(f"A funcionaria {nome} tem {idade} do sexo {genero} tem {altura:.2f} e recebe {salario:,.2f}")
 print('-'*80)
 
-# Operadores Aritmeticos
+# OPERADORES ARITMETICOS
 num1 = 5
 num2 = 2
 
-# Soma
+# SOMA
 print(f"A soma de {num1} + {num2} = {num1 + num2}")
 print('-'*80)
 
-# Subtracao
+# SUBTRACAO
 print(f"A Subtração de {num1} - {num2} = {num1 - num2}")
 print('-'*80)
 
-# Multiplicacao
+# MULTIPLICACAO
 print(f"A Multiplicacao de {num1} x {num2} = {num1 ** num2}")
 print('-'*80)
 
 
-# Divisao
+# DIVISAO REAL ( / ): RETORNA RESULTADOS COM CASAS DECIMAIS
 print(f"A Divisão de {num1} / {num2} = {num1 / num2}")
 print('-'*80)
 
-# Divisao de numero inteiro
+# DIVISAO INTEIRA ( // ): RETORNA APENAS A PARTE INTEIRA DO QUOCIENTE, ARREDONDANDO PARA BAIXO(PARA MENOR INTEIRO MAIS PROXIMO).
 print(f"A Divisão de numero inteiro de {num1} // {num2} = {num1 // num2}")
 print('-'*80)
 
