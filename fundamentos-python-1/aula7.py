@@ -30,14 +30,22 @@ for cliente in range(2):
 
 print(f"Cliente: {clientes[0]}")
 print(f"Telefone: {clientes[1]}")
+print("Lista clientes: ", clientes)
 
+Cadastro_clientes = []
+Cadastro_clientes.append(clientes[:])
+print(f"Lista Cadastro de Clientes: ", Cadastro_clientes)
+clientes.clear()
+
+print("Ação 2 - Lista cliente", clientes)
 print("Informe o nome e telefone do segundo cliente: ")
 for cliente in range(2):
     clientes.append(input())
 
 print(f"Cliente: {clientes[0]}")
 print(f"Telefone: {clientes[1]}")
+print("Ação 3 - Lista Clientes", clientes)
 
 Cadastro_clientes = []
-Cadastro_clientes.append(clientes)
+Cadastro_clientes.append(clientes[:])
 print(f"Lista Cadastro de Clientes: ", Cadastro_clientes)
