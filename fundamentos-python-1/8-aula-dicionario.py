@@ -19,10 +19,26 @@ print(pessoa['idade'])
 print(pessoa['cidade'])
 print(pessoa['telefone'])
 
+# BUSCAR CHAVES, VALORES E ITENS
 print(pessoa.keys())
 print(pessoa.values())
 print(pessoa.items())
 print(pessoa)
 
+# BUSCAR CHAVE E VALOR COM LOOP FOR
 for chave, valor in pessoa.items():
     print(f"{chave}: {valor}")
+
+# ADICIONAR UM NOVO PAR CHAVE-VALOR
+pessoa['Profissão'] = 'Engenheiro'
+print(pessoa)
+
+# MODIFICAR UM VALOR EXISTENTE
+pessoa['Estado Civil'] = 'Solteiro'
+print(pessoa) 
+
+pessoa['notas'] = [7.0, 8.0, 9.0]
+print(pessoa)
+
+media = sum(pessoa["notas"]) / len(pessoa["notas"])
+print(f"Media de notas: {media}")
