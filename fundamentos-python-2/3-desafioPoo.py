@@ -36,7 +36,7 @@ class Paciente:
         else:
             print("Id do paciente não encontrado.")
     
-cliente1 = Paciente()
+cliente1 = Paciente() 
 cliente1.cadastrar_paciente()
 cliente1.mostrar_dados()
 cliente1.atualizar_paciente()
