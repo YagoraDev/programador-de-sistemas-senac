@@ -145,6 +145,7 @@ while True:
     
     elif opcao == "5":
         print("Saindo do sistema...")
+        break
 
     else:
         print("Opção inválida. Tente novamente. \n")
